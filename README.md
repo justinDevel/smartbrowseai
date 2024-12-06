@@ -86,7 +86,6 @@ To install and use SmartBrowseAI:
 This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Demo Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bwf9BVbCYjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [![SmartBrowseAI Demo](https://img.youtube.com/vi/bwf9BVbCYjs/0.jpg)](https://www.youtube.com/watch?v=bwf9BVbCYjs)
 
