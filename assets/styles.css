@@ -1,0 +1,69 @@
+#gemini-chat-container {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  right: 10px;
+  width: 300px;
+  background: #21273b;
+  background-color: #21273b;
+  border: 1px solid lavenderblush;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+::part(chat-header) {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+::part(chat-body) {
+  height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  color: #ffffffe8;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow-x: hidden;
+  border-top: 1px solid rgb(204 204 204 / 14%);
+  border-bottom: 1px solid rgb(204 204 204 / 14%);
+}
+
+::part(chat-input) {
+  width: 85%;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #ffffffd1;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+::part(chat-send) {
+  width: 100%;
+  background: #007bff;
+  border-radius: 10px;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px;
+}
+
+::part(user-msg) {
+  padding: 5px;
+}
+
+::part(ai-msg) {
+  padding: 10px;
+  border: 1px solid #8080802b;
+}
+
+::part(res) {
+  font-size: 11px;
+}
