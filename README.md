@@ -33,7 +33,7 @@ To install and use SmartBrowseAI:
 ## Usage
 
 1. **Visit an E-Commerce Website**:
-   - Go to websites like Amazon, Walmart, Best Buy, etc.
+   - Go to websites like Walmart, Amazon, Best Buy, etc.
    - Upon loading, SmartBrowseAI automatically activates and appears as a floating chat box.
    
 2. **Interact with the Chat Assistant**:
@@ -54,7 +54,6 @@ To install and use SmartBrowseAI:
 1. **Install the extension** (follow the [installation instructions](#installation)).
 2. **Navigate to E-commerce Websites** (e.g., Amazon, Walmart, etc.).
 3. **Interact with the Chat**:
-   - Open the chat assistant by clicking the extension icon.
    - Ask questions related to the product, such as:
      - "What is the price of this product?"
      - "Compare this product with another one."
