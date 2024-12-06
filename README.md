@@ -87,7 +87,7 @@ This project is open-source and available under the MIT License. See the [LICENS
 
 ## Demo Video
 
-Watch the demo of SmartBrowseAI in action: [Link to YouTube or Vimeo Video].
+[![SmartBrowseAI Demo](https://img.youtube.com/vi/bwf9BVbCYjs/0.jpg)](https://www.youtube.com/watch?v=bwf9BVbCYjs)
 
 ## Feedback
 We would love to hear your thoughts on the extension. Open an issue or leave feedback on the [GitHub Issues page](https://github.com/justinDevel/smartbrowseai/issues).
