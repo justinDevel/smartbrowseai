@@ -1,94 +1,149 @@
-# SmartBrowseAI - Chrome Extension
+# SmartBrowseAI - Chrome Extension  
 
-SmartBrowseAI is a powerful Chrome extension that acts as an intelligent customer service assistant, automatically hooking itself to any website you visit. On e-commerce websites like Amazon, Walmart, and others, it provides real-time chat assistance, allowing users to inquire about products, compare items, and get product details.
-
-## Key Features
-- **Real-time Chat Assistance**: SmartBrowseAI hooks into any website you visit and offers an AI-powered chat box that users can interact with.
-- **Product Queries**: On e-commerce sites like Amazon or Walmart, users can ask about specific products, including price, description, features, and availability.
-- **Product Comparison**: Users can compare products side by side to make informed purchase decisions.
-- **Auto-Response**: When users interact with the extension, it automatically pulls up relevant product details, descriptions, and compares items based on the user’s queries.
-- **Seamless Integration**: No setup required from the user; the extension works automatically as soon as the user visits an e-commerce website.
-
-## APIs Used
-- **Prompt API**: Used to generate dynamic responses to user queries based on the context of the current webpage.
-- **Summarization API**: Used to automatically summarize product descriptions and other relevant information when a webpage is loaded.
-
-## Installation
-
-To install and use SmartBrowseAI:
-
-1. **Clone the repository** or download the extension code:
-    ```bash
-    git clone https://github.com/justinDevel/smartbrowseai.git
-    ```
-
-2. **Load the extension** in Chrome:
-    - Go to `chrome://extensions/`.
-    - Enable **Developer mode** at the top-right corner.
-    - Click **Load unpacked** and select the folder containing the extension files.
-
-3. **Enable the extension**:
-    - Once installed, the SmartBrowseAI extension will automatically activate whenever you visit an e-commerce website or any other website with relevant content.
-
-## Usage
-
-1. **Visit an E-Commerce Website**:
-   - Go to websites like Amazon, Walmart, Best Buy, etc.
-   - Upon loading, SmartBrowseAI automatically activates and appears as a floating chat box.
-   
-2. **Interact with the Chat Assistant**:
-   - Ask questions like:
-     - "What is the price of this product?"
-     - "Can you compare this item with another?"
-     - "What are the features of this product?"
-   - SmartBrowseAI will instantly fetch the relevant information from the page and respond in a conversational format.
-   
-3. **Get Product Descriptions and Comparisons**:
-   - SmartBrowseAI can compare multiple products at once, providing descriptions, features, and prices side by side.
-
-4. **Automatic Summarization**:
-   - When a page loads, SmartBrowseAI automatically summarizes key product information, ensuring users get quick insights.
-
-## Testing Instructions
-
-1. **Install the extension** (follow the [installation instructions](#installation)).
-2. **Navigate to E-commerce Websites** (e.g., Amazon, Walmart, etc.).
-3. **Interact with the Chat**:
-   - Open the chat assistant by clicking the extension icon.
-   - Ask questions related to the product, such as:
-     - "What is the price of this product?"
-     - "Compare this product with another one."
-4. **Check Real-Time Responses**:
-   - Ensure that the assistant pulls accurate information based on the content of the webpage.
-   - Test various products and different websites for consistency and reliability of responses.
-
-## Features in Detail
-
-### Chatbox Interaction
-- **Product Details**: Ask for product name, price, features, and more.
-- **Product Comparison**: Compare multiple products by asking the assistant to show differences in price, features, and availability.
-- **Summerized websites**: Visit any website ask the assistant , it will summerize the whole idea of a website , document, product , and a lot more
-
-### Seamless Integration
-- **Automatic Activation**: The extension automatically detects when you visit any website and launches the chatbox.
-- **Minimal User Effort**: No setup is needed—just install the extension and start chatting.
-
-### Summarization
-- **Page Summarization**: On page load, SmartBrowseAI extracts and displays relevant information from product listings or content on the page.
+SmartBrowseAI is a powerful Chrome extension that serves as an intelligent assistant, providing real-time insights, product comparisons, content generation, and more. It seamlessly integrates with any website, enhancing user interaction with advanced AI capabilities.  
 
 ---
-  
-## What's Next
-- **Enhanced Query Handling**: Improve the AI's ability to handle more complex queries and provide even more context-aware responses.
-- **Customizable User Interface**: Allow users to adjust the look and feel of the chat assistant.
 
-## License
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+## Key Features  
 
-## Demo Video
+### 🔹 **Real-Time Chat Assistance**  
+- An AI-powered chatbox activates automatically on any website.  
+- Users can ask questions about products, content, and pages directly.  
 
-Watch the demo of SmartBrowseAI in action: [Link to YouTube or Vimeo Video].
+### 🔹 **Product Queries**  
+- Retrieve detailed information such as **price**, **features**, **availability**, and more.  
+- Example: *"What are the features of this product?"*  
 
-## Feedback
-We would love to hear your thoughts on the extension. Open an issue or leave feedback on the [GitHub Issues page](https://github.com/justinDevel/smartbrowseai/issues).
+### 🔹 **Product Comparison**  
+- Compare multiple products side-by-side to make informed decisions.  
+- Example: *"Compare Product A with Product B."*  
 
+### 🔹 **Automatic Summarization**  
+- Quickly summarizes key details of webpages, product descriptions, or lengthy documents.  
+- Example: *"Summarize this page."*  
+
+### 🔹 **Content Generation (Writer API)**  
+- Dynamically generate high-quality content, including:  
+  - Product descriptions  
+  - Reviews  
+  - Summaries and articles  
+
+### 🔹 **Content Rewriting (Rewriter API)**  
+- Rewrite existing content to improve tone, style, or uniqueness.  
+- Example: *"Rewrite this text to make it sound more formal."*  
+
+### 🔹 **Text Picker Tool**  
+- **Highlight and Interact**: Select text, code snippets, or quotes from any webpage and perform actions such as:  
+  - **Summarize**: Extract key points from the selected content.  
+  - **Rewrite**: Improve or transform the highlighted text into a new style or tone.
+  - **Generate**: Create related content or code based on the selected snippet.  
+- **Example Use Cases**:  
+  - **For Developers**: Highlight code snippets and ask for explanations, optimizations, or transformations into other languages.  
+    - *"Explain this code in Python."*  
+    - *"Rewrite this code snippet for performance."*  
+  - **For Writers**: Highlight text and rewrite it for a formal tone, or summarize complex paragraphs.  
+    - *"Rewrite this paragraph to make it more concise."*  
+  - **For Researchers**: Select quotes and generate summaries or counterarguments.  
+    - *"Generate a counterpoint for this quote."*  
+
+### 🔹 **Seamless Integration**  
+- Automatically activates on any website without requiring setup.  
+- Works on e-commerce sites like **Amazon**, **Walmart**, **Best Buy**, and more.  
+
+### 🔹 **Multi-Platform Support**  
+- Supports any content-rich webpage, enabling users to access advanced AI features regardless of the site.  
+
+---
+
+## APIs Used  
+
+- **Prompt API**: For dynamic, context-aware responses.  
+- **Summarization API**: Summarizes content from product pages, documents, or articles.  
+- **Writer API**: Generates new content tailored to user needs.  
+- **Rewriter API**: Enhances existing content for clarity, tone, and professionalism.  
+
+---
+
+## Installation  
+
+1. **Clone the repository**:  
+   ```bash  
+   git clone https://github.com/justinDevel/smartbrowseai.git  
+   ```  
+
+2. **Load the extension**:  
+   - Open `chrome://extensions/`.  
+   - Enable **Developer mode**.  
+   - Click **Load unpacked** and select the folder containing the extension files.  
+
+3. **Enable and Use**:  
+   Once installed, SmartBrowseAI hooks itself automatically on websites you visit.  
+
+---
+
+## Usage Instructions  
+
+1. **Visit a Website**:  
+   - Navigate to e-commerce sites (e.g., Amazon, Walmart) or any content-heavy webpage.  
+
+2. **Interact with the Chatbox**:  
+   - Ask questions after enabling your desired feature like:  
+     - *"What is the price of this product?"*  
+     - *"Summarize this page."*  
+     - *"Rewrite this paragraph for me."*  
+
+3. **Use the Text Picker Tool**:  
+   - Highlight text, code, or quotes on any webpage.  
+   - Interact with the highlighted content via the chat assistant for further processing.  
+
+4. **Leverage Product Comparisons and Summaries**:  
+   - Compare products side-by-side directly in the chatbox.  
+   - Get automatic summaries of key content upon page load.  
+
+---
+
+## Testing Instructions  
+
+1. **Install the Extension** (see [Installation](#installation)).  
+2. **Navigate to Supported Websites** (e.g., Amazon, Walmart, Blog, etc.).  
+3. **Test the Features**:  
+   - Highlight text and test the **Text Picker Tool** with various inputs (code, text, quotes).  
+   - Use the chatbox for product queries, comparisons, and content generation.  
+4. **Validate the Outputs**:  
+   - Ensure summaries, rewritten content, and generated text are accurate and context-aware.  
+
+---
+
+## Roadmap  
+
+- **Enhanced Text Picker**:  
+  - Add export options for processed content (e.g., download as `.txt`, `.docx`).  
+- **Improved Summarization**:  
+  - Provide structured formats (e.g., bullet points, numbered lists).  
+- **UI Customization**:  
+  - Allow users to personalize the look and feel of the chatbox and picker tools.  
+
+---
+
+## License  
+
+This project is open-source under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## Demo Video  
+
+Watch SmartBrowseAI in action: [[Demo Video Link](https://www.youtube.com/watch?v=iK8safrlfrY)].  
+
+---
+
+## Feedback  
+
+We value your feedback!  
+- **Report Issues**: [GitHub Issues Page](https://github.com/justinDevel/smartbrowseai/issues)  
+
+---
+
+## Connect With Us  
+
+- **GitHub**: [SmartBrowseAI Repository](https://github.com/justinDevel/smartbrowseai)  
