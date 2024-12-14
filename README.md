@@ -133,7 +133,7 @@ This project is open-source under the **MIT License**. See the [LICENSE](LICENSE
 
 ## Demo Video  
 
-Watch SmartBrowseAI in action: [[Demo Video Link](https://www.youtube.com/watch?v=iK8safrlfrY)].  
+Watch SmartBrowseAI in action: [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iK8safrlfrY/0.jpg)](https://www.youtube.com/watch?v=iK8safrlfrY)
 
 ---
 
