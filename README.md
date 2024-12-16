@@ -1,6 +1,6 @@
-# SmartBrowseAI - Chrome Extension  
+# SmartWebAI - Chrome Extension  
 
-SmartBrowseAI is a powerful Chrome extension that serves as an intelligent assistant, providing real-time insights, product comparisons, content generation, and more. It seamlessly integrates with any website, enhancing user interaction with advanced AI capabilities.  
+SmartWebAI is a powerful Chrome extension that serves as an intelligent assistant, providing real-time insights, product comparisons, content generation, and more. It seamlessly integrates with any website, enhancing user interaction with advanced AI capabilities.  
 
 ---
 
