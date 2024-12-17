@@ -214,7 +214,7 @@
       <div id="chat-header" part="chat-header">
       <div id="chat-resizer" part="chat-resizer"></div>
         <div class="chat-header-left" part="chat-header-left"></div>
-        <div class="chat-header-title" part="chat-header-title">SmartBrowseAI Assistant</div>
+        <div class="chat-header-title" part="chat-header-title">SmartWebAI Assistant</div>
         <div class="chat-header-right" part="chat-header-right">
         <!--<button id="settings-btn" part="settings-btn" aria-label="Settings" data-tooltip="Settings">
           ⚙️
