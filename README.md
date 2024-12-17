@@ -68,7 +68,7 @@ SmartWebAI is a powerful Chrome extension that serves as an intelligent assistan
 
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/justinDevel/smartbrowseai.git  
+   git clone https://github.com/justinDevel/smartwebai.git  
    ```  
 
 2. **Load the extension**:  
